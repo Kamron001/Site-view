@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    background-image: url(30.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo h1{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+
+.btn button{
+    background-color: transparent;
+    color: aqua;
+    padding: 8px 15px;
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+
+.header ul li{
+    font-size: 20px;
+}
+
+.main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.main h1{
+    font-size: 70px;
+}
+
+.main button{
+    background-color: rgb(0, 255, 170);
+    color: black;
+    padding: 8px 15px;
+    border: 1px solid rgb(0, 48, 48);
+    cursor: pointer;
+}
